@@ -1,5 +1,5 @@
 body{
-  padding: 0 6%;
+  padding: 0 450px;
   background-image: linear-gradient(to left, pink , lightsalmon);
   font-family: "Helvetica", san-serif;
 }
@@ -8,21 +8,13 @@ header{
   margin-bottom: 5%;
 }
 
-.nav-bar{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
 
-nav li{
-  display: inline;
+nav{
+  text-align: center;
 }
 
 nav a{
   margin: 1px 35px 0 0;
-}
-
-nav a:link, nav a:visited{
   font-size: 18px;
   background-color: rgba(0, 0, 0, 0.2);
   color: white;
@@ -35,57 +27,25 @@ nav a:link, nav a:visited{
 
 nav a:hover{
   color: lightsalmon;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
-.par-left{
-width: 50%;
-display: inline-block;
-}
-
-.pic-right{
-  float:right;
-  width: 50%;
-  text-align: center;
-}
-
-.cat-pic-1{
-  width: 60%;
-  margin:7% 0 1% 5%;
-  border-radius: 2%;
-  border: 7px solid rgba(0, 0, 0, 0.2);
-  display: block;
-}
-
-.cat-pic-1:hover{
-  transform: scale(1.03);
-}
-
-aside a{
-  margin: 0 2%;
-  text-decoration: none;
-  font-size: 16px;
-  color: #4b9ed0;
-}
-
-aside a:hover{
-  color: #346b8c;
+.active{
+  color: lightsalmon;
+  background: rgba(0, 0, 0, 0.7);
 }
 
 p{
   text-indent: 50px;
 }
 
-/* all theree have colors to show how weirdly they overlap */
-.intro{
-  /* background-color: rgba(0, 255, 0, 0.2); */
-  height: 510px;
+.row{
+  text-align: center;
+  display: block;
 }
 
-article{
-  /* background-color: rgba(255, 0, 0, 0.2); */
-}
-
-aside.pic-right{
-  /* background-color: white; */
+.column {
+  float: left;
+  width: 48%;
+  margin: 0 1%;
 }
