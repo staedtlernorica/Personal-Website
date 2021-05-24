@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="contact.js">
+
+    </script>
+  </head>
+  <body onload='form1.reset();'>
+
+<h1>A List of All Inputs</h1>
+
+
+<form id="form1" action="index.html" method="post">
+
+  <fieldset>
+    <legend>Site Information</legend>
+    <label for="username">Username</label>
+    <input type="text" id="username">
+    <br>
+    <label for="password">Password</label>
+    <input type="password" id="password">
+  </fieldset>
+
+    <br>
+
+  <fieldset>
+    <label for="name">Your Name</label>
+    <input type="text" id="name">
+    <br>
+    <legend>Personal Information</legend>
+    <label for="email">Email</label>
+    <input type="email" id="email">
+    <br>
+    <label for="phone">Your Phone Number</label>
+    <input type="tel" id="phone">
+    <br>
+    <label for="birthdate">Your Birthday</label>
+    <input type="date" id="birthdate">
+    <!-- implement max date of today -->
+
+  </fieldset>
+
+    <br>
+
+  <label for="date">Your Current Date</label>
+  <input type="date" id="date">
+  <br>
+
+  <br>
+  <label for="comment">Your Comment</label>
+  <textarea id="comment" rows='5' column='30'></textarea>
+  <br>
+  <label for=""></label>
+  <text type="textarea" id="">
+    <br>
+    <label for="fav-browser">Favorite Browser (optional)</label>
+    <input list="browsers" id="fav-browser">
+    <datalist id='browsers'>
+    <option value="Internet Explorer">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist>
+
+  <br>
+  <label for="os">Operating System (req'd)</label>
+  <select name="os">
+<option value="firefox">Windows</option>
+<option value="ie">Mac</option>
+<option value="chrome">Linux</option>
+</select>
+
+    <br>
+    <label for=""></label>
+    <input type="" id="">
+
+    <br>
+    <label for="" id="counter">0</label>
+    <button type="button" onclick="plusOne()">Click to +1 counter</button>
+    <button type="button" onclick="minusOne()">Click to -1 counter</button>
+
+    <br>
+    <input type="submit" id="submit" value="Submit">
+    <br>
+    <button type="submit">Submit</button>
+    <br>
+    <a href="https://html.com/attributes/button-type/">The difference between
+    &lt;button type="submit"&gt; and &lt;input type="submit"&gt;</a>
+
+
+</form>
+
+  </body>
+</html>
